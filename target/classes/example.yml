@@ -1,0 +1,123 @@
+# это меню взято от сюда https://versions.revivenode.com/Content/SignGui.zip так же там и ресурспак для правильной отображения инвентаря
+open_command: warp
+size: 54
+menu_title: "&f七七七七七七七七ㇺ"
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.warp
+      deny_commands:
+        - '[message] &cPlease contact your local admin to be perminated with the warp permission.'
+
+items:
+  'ows1':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 19
+    display_name: "OVERWORLD WARP"
+    lore:
+      - "&7Warp to the Over world"
+  'ows2':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 20
+    display_name: "OVERWORLD WARP"
+    lore:
+      - "&7Warp to the Over world"
+  'ows3':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 28
+    display_name: "OVERWORLD WARP"
+    lore:
+      - "&7Warp to the Over world"
+  'ows4':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 29
+    display_name: "OVERWORLD WARP"
+    lore:
+      - "&7Warp to the Over world"
+
+  'nws1':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 24
+    display_name: "NETHER WARP"
+    lore:
+      - "&7Warp to the Nether dimension"
+  'nws2':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 25
+    display_name: "NETHER WARP"
+    lore:
+      - "&7Warp to the Nether dimension"
+  'nws3':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 33
+    display_name: "NETHER WARP"
+    lore:
+      - "&7Warp to the Nether dimension"
+  'nws4':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 34
+    display_name: "NETHER WARP"
+    lore:
+      - "&7Warp to the Nether dimension"
+
+  'sws1':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 22
+    display_name: "SPAWN WARP"
+    lore:
+      - "&7Warp to the server spawn"
+
+  'ews1':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 39
+    display_name: "END WARP"
+    lore:
+      - "&7Warp to the end dimension"
+  'ews2':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 40
+    display_name: "END WARP"
+    lore:
+      - "&7Warp to the end dimension"
+  'ews3':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 41
+    display_name: "END WARP"
+    lore:
+      - "&7Warp to the end dimension"
+  'ews4':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 48
+    display_name: "END WARP"
+    lore:
+      - "&7Warp to the end dimension"
+  'ews5':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 49
+    display_name: "END WARP"
+    lore:
+      - "&7Warp to the end dimension"
+  'ews6':
+    material: MAP
+    nbt_int: CustomModelData:1010
+    slot: 50
+    display_name: "END WARP"
+    lore:
+      - "&7Warp to the end dimension"
+sweet: true

@@ -1,0 +1,31 @@
+name: AerialMenus
+version: '${project.version}'
+main: bibilmeshka.projects.aerialmenus.AerialMenus
+api-version: '1.19'
+authors: [potichek]
+description: Menus for Aerial Oasis
+permissions:
+  aerialmenus.open:
+    description: use command /am open
+  aerialmenus.open.others:
+    description: use command /am open specifical player
+  aerialmenus.placeholdersfor:
+    description: use command /am open specifical player with specifical PH
+  aerialmenus.list:
+    description: use command /am list
+  aerialmenus.admin:
+    description: use command /am dump
+  aerialmenus.reload:
+    description: use command /am reload
+  aerialmenus.test:
+    description: use command /am test
+  aerialmenus.openrequirement.bypass.*:
+    description: bypass for all menus requirement
+  aerialmenus.placeholdersfor.exempt:
+    description: Blocks other players from using you in this command /am open <Menu> -p:<You>
+commands:
+  aerialmenus:
+    permission: aerialmenus.admin
+    aliases:
+      - am
+    usage: /am <reload>

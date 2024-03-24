@@ -1,0 +1,6 @@
+# Создавать ли меню для примера
+create_example_menu: true
+
+menus:
+  example:
+    file: example.yml
